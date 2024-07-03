@@ -1,6 +1,13 @@
 #include <gtest/gtest.h>
 #include "Soundex.h"
-
+class SoundexTest : public ::testing::Test {
+protected:
+    // Optionally, you can add setup code if needed
+    void SetUp() override {}
+ 
+    // Optionally, add teardown code if needed
+    void TearDown() override {}
+};
 // Test cases for getSoundexCode function
 TEST(SoundexTest, GetSoundexCode) {
     EXPECT_EQ(getSoundexCode('A'), '0');  // 'A' is not in the soundex map, should return '0'
