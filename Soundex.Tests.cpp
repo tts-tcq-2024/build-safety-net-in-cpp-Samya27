@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include "Soundex.h"
-class SoundexTest : public ::testing::Test {
+class GenerateSoundexTest : public ::testing::Test {
 protected:
     // Optionally, you can add setup code if needed
     void SetUp() override {}
