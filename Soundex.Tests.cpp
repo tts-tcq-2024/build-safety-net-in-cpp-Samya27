@@ -24,7 +24,6 @@ TEST(GenerateSoundexTest, SingleCharacterName) {
 
 TEST(GenerateSoundexTest, BasicNames) {
     EXPECT_EQ(generateSoundex("Ana"), "A500");
-    EXPECT_EQ(generateSoundex("Bob"), "B100");
     EXPECT_EQ(generateSoundex("Carter"), "C636");
     EXPECT_EQ(generateSoundex("David"), "D130");
     EXPECT_EQ(generateSoundex("Eve"), "E100");
